@@ -1,1 +1,38 @@
+#numbers
+a=1               #عدد صحيح
+b=1.1                #عدد كسري
+c=1j               #عدد مركب
+print(type(a)) #int
+print(type(b)) #float
+print(type(c)) #complex
+
+#text
+d="abdullah fahal"      #نص
+print(type(d))          #str
+
+#boolean
+e=True            #قيمة منطقية
+f=False            #قيمة منطقية
+print(type(e))   #bool
+print(type(f))   #bool
+
+#nonetype
+g=None                    #لا قيمة
+print(type(g))            #NoneType
+
+#Sequence Types
+h=[1,7.7,"abdullah"]             #قائمة مرنة
+print(type(h))                    #list
+
+i=(11,15,28)                     #مجموعه غير مرنه
+print(type(i))                   #tuple
+
+j=range(0,11)                   #نطاق
+print(type(j))                  #range
+
+k={"name":"abdullah","age":19,"city":"buraydah"}       #قاموس  
+print(type(k))                                         #dict
+
+l={1,2,3,4,5,5,6,6,7}                               #مجموعه لاتاخذ التكرار او الترتيب بعين الاعتبار
+print(type(l))                                       #set
 
