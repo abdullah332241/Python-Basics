@@ -8,8 +8,8 @@ nums=list(map(int,input("enter a numbers").spilt()))
 #ملاحظة نفصل بين الارقام المدخلة باستخدام مسافة
 
  # math حساب الناتج مبشارة باستخدام مكتبة
-Lcm=functools.reduce(math.lcm(nums)
-Gcd==functools.reduce(math.gcd(nums)
+Lcm=functools.reduce(math.lcm(nums))
+Gcd=functools.reduce(math.gcd(nums))
 #هو لتوحيد النواتج الى ناتج واحد functools بمكتبة  reduce سبب استخدام عنصر  
 
 print(f"Lcm is: {Lcm})
